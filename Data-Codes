@@ -1,0 +1,33 @@
+Diabetes patient records were obtained from two sources:  an automatic
+electronic recording device and paper records.  The automatic device
+had an internal clock to timestamp events, whereas the paper records
+only provided "logical time" slots (breakfast, lunch, dinner,
+bedtime).  For paper records, fixed times were assigned to breakfast
+(08:00), lunch (12:00), dinner (18:00), and bedtime (22:00).  Thus
+paper records have fictitious uniform recording times whereas
+electronic records have more realistic time stamps.
+
+Diabetes files consist of four fields per record.  Each field is
+separated by a tab and each record is separated by a newline.
+
+File Names and format:
+(1) User
+(2) Date in MM-DD-YYYY format
+(3) Time in XX:YY format
+(4) normal insulin dose
+(5) UltraLente insulin dose
+(6) Other
+(7) Pre-meal
+(8) Post-meal
+(a) Hypoglycemic symptoms
+(b) Typical meal
+(c) Large meal
+(d) Small meal
+(e) Typical exercise
+(f) Heavy exercise
+(g) Light exercise
+
+
+Questions regarding the format of the diabetes data files can be sent
+to kahn@informatics.WUSTL.EDU (Internet) or 70333,34 (CompuServe).  Be
+forwarned, I'm not very good at remembering to check Compuserve.
