@@ -15,6 +15,7 @@ To work correctly, the following programs/libraries are needed:
 
     pip install --upgrade numpy
     pip install --upgrade tensorflow
+    pip install matplotlib
   
 ## Running
 
